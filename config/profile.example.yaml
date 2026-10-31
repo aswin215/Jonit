@@ -1,0 +1,42 @@
+# Master profile: the single source of truth for every resume the agent writes.
+# Copy to config/profile.yaml and replace with your real details. Put in MORE bullets
+# than fit on one page; the tailor picks the best ones per job. Every id must be unique.
+name: Your Name
+contact:
+  email: you@example.com
+  phone: "(555) 555-5555"
+  location: San Jose, CA
+  linkedin: linkedin.com/in/you
+  github: github.com/you
+
+education:
+  - school: San Jose State University
+    degree: M.S. Computer Science
+    end: May 2027
+
+experience:
+  - id: acme
+    company: Acme Corp
+    title: Software Engineering Intern
+    start: Jun 2025
+    end: Aug 2025
+    bullets:
+      - id: acme-1
+        text: Built a REST API in Python and FastAPI that served 2,000 requests per minute
+        tags: [python, fastapi, api]
+      - id: acme-2
+        text: Cut CI build time from 14 to 6 minutes by caching Docker layers in GitHub Actions
+        tags: [ci, docker, devops]
+
+projects:
+  - id: jobagent
+    name: Job Application Agent
+    bullets:
+      - id: jobagent-1
+        text: Built an agent that ranks job postings with an LLM and tailors resumes to each one
+        tags: [llm, python, agents]
+
+skills:
+  languages: [Python, Java, SQL, JavaScript]
+  frameworks: [FastAPI, React, PyTorch]
+  tools: [Docker, Git, AWS, PostgreSQL]
