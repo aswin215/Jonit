@@ -1,0 +1,49 @@
+# Free keyword filters run before any LLM call, so tight filters = lower cost.
+target_level: New grad / entry level (0-2 years of experience)
+
+titles_include:      # job title must contain one of these (case-insensitive)
+  - software engineer
+  - software developer
+  - software development engineer   # Amazon-style SDE titles
+  - data scientist
+  - data engineer
+  - machine learning engineer
+  - ml engineer
+  - ai engineer
+  - ai/ml
+  - ml/ai
+  - deep learning
+  - agentic
+  - ai agent
+  - site reliability
+  - sre
+titles_exclude:      # anything above entry level, plus internships
+  - senior
+  - sr.
+  - "sr "            # quoted: plain "sr" would also drop SRE roles
+  - staff
+  - principal
+  - lead
+  - manager
+  - director
+  - head of
+  - architect
+  - iii
+  - intern
+  - internship
+  - co-op
+home: San Jose, CA (Bay Area)
+relocate_anywhere_in_us: true   # accept any US location, not just the list below
+locations:           # preferred areas, matched as substrings of the posting's location
+  - San Jose
+  - San Francisco
+  - Bay Area
+  - California
+  - United States
+remote_ok: true
+remote_regions: [us, usa, united, states, america, anywhere, worldwide]   # words a remote job's location may contain
+excluded_companies: []
+max_age_days: 30
+min_fit_score: 70
+needs_visa_sponsorship: true   # F-1 OPT/STEM OPT now; will need H-1B later. Flags "no sponsorship" jobs
+work_authorization: F-1 OPT / STEM OPT, can start immediately, authorized for the next 3 years
