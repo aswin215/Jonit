@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+data/
+config/profile.yaml
+resumes/
+config/profile.generated.yaml
+config/answers.yaml
+.DS_Store
