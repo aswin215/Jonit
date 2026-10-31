@@ -1,0 +1,34 @@
+# Companies to watch. `ats` is greenhouse, lever or ashby; `slug` is the board name in the URL:
+#   greenhouse: boards.greenhouse.io/<slug>    lever: jobs.lever.co/<slug>    ashby: jobs.ashbyhq.com/<slug>
+# Boards that don't exist are reported and skipped.
+
+# Curated new-grad lists (raw Markdown tables of company | title | location | apply link | age).
+feeds:
+  - name: speedyapply new-grad USA
+    url: https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/NEW_GRAD_USA.md
+
+companies:
+  - {name: Stripe, ats: greenhouse, slug: stripe}
+  - {name: Airbnb, ats: greenhouse, slug: airbnb}
+  - {name: Discord, ats: greenhouse, slug: discord}
+  - {name: Palantir, ats: lever, slug: palantir}
+  - {name: Spotify, ats: lever, slug: spotify}
+  - {name: OpenAI, ats: ashby, slug: openai}
+  - {name: Ramp, ats: ashby, slug: ramp}
+  # Known for new-grad and early-career hiring
+  - {name: Databricks, ats: greenhouse, slug: databricks}
+  - {name: Anthropic, ats: greenhouse, slug: anthropic}
+  - {name: Scale AI, ats: greenhouse, slug: scaleai}
+  - {name: Robinhood, ats: greenhouse, slug: robinhood}
+  - {name: Pinterest, ats: greenhouse, slug: pinterest}
+  - {name: Figma, ats: greenhouse, slug: figma}
+  - {name: Roblox, ats: greenhouse, slug: roblox}
+  - {name: Lyft, ats: greenhouse, slug: lyft}
+  - {name: Coinbase, ats: greenhouse, slug: coinbase}
+  - {name: Samsara, ats: greenhouse, slug: samsara}
+  - {name: Asana, ats: greenhouse, slug: asana}
+  - {name: Anyscale, ats: greenhouse, slug: anyscale}
+  - {name: Plaid, ats: lever, slug: plaid}
+  - {name: Notion, ats: ashby, slug: notion}
+  - {name: Cohere, ats: ashby, slug: cohere}
+  - {name: Perplexity, ats: ashby, slug: perplexity}
